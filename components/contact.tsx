@@ -57,18 +57,19 @@ export default function Contact() {
             initial={{ opacity: 0, x: 20 }}
             whileInView={{ opacity: 1, x: 0 }}
             viewport={{ once: true }}
-            className="w-full h-[400px] rounded-3xl overflow-hidden shadow-2xl border-4 border-white/10"
+            className="w-full h-[400px] md:h-[500px] rounded-3xl overflow-hidden shadow-2xl border-4 border-white/10"
           >
             <iframe 
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3690.443184646035!2d73.2215!3d22.3361!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x395fc92400000001%3A0x867041776510619a!2sSarva%20Square!5e0!3m2!1sen!2sin!4v1700000000000!5m2!1sen!2sin" 
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2993.488545157737!2d73.20951967419452!3d22.345792741247024!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x395fcf66b87ddf73%3A0xdd65b8187ec87fcf!2sOm%20Sai%20Ladies%20Tailor!5e1!3m2!1sen!2sin!4v1774598508474!5m2!1sen!2sin" 
               width="100%" 
               height="100%" 
               style={{ border: 0 }} 
-              allowFullScreen 
+              allowFullScreen={true} 
               loading="lazy" 
               referrerPolicy="no-referrer-when-downgrade"
               title="Om Sai Ladies Tailor Location"
-            ></iframe>
+              className="w-full h-full"
+            />
           </motion.div>
         </div>
       </div>

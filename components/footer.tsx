@@ -89,7 +89,7 @@ export default function Footer() {
               <div className="flex gap-3 text-sm group">
                 <MapPin className="w-5 h-5 text-primary flex-shrink-0" />
                 <p className="font-lato text-neutral-400 group-hover:text-neutral-200 transition-colors">
-                  Shop No. 12, Fashion Plaza,<br />Main Market, New Delhi 110001
+                  Sarva Square, Opp. Motnath Mahadev Mandir,<br />Harni Road, Vadodara, Gujarat 390024
                 </p>
               </div>
               <div className="flex gap-3 text-sm group">
